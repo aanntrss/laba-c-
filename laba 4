@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int price;
+    int difference;
+    int sell;
+    printf(" enter price : ");
+    scanf("%d", &price);
+
+
+    if (price >= 100) {
+        difference = (price * 7) / 100;
+        sell = price - difference;
+        printf("sell:%d", sell);
+    }else if(price >= 50 && price < 100){
+        difference = (price * 5) / 100;
+        sell = price - difference;
+        printf("sell:%d", sell);
+    }else{
+        printf("%d", price);
+    }
+
+
+
+
+
+
+    return 0;
+}
