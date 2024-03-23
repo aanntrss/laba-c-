@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int variant[2][2]={
+
+        {45,20},
+        {70,60}
+    };
+    printf("%d\n", (variant[0][0] + variant[1][0]));
+    printf("%d\n", (variant[0][1] + variant[1][1]));
+    printf("%d\n", (variant[0][0] * variant[0][1]));
+    printf("%d\n", (variant[1][0] * variant[1][1]));
+
+
+    return 0;
+}
