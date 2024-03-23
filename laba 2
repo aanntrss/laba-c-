@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    char name[20];
+    char surname[20];
+    int number_computer;
+
+    printf("enter your name");
+    scanf("%s", &name);
+
+    printf("enter your surname");
+    scanf("%s", &surname);
+
+    printf("enter your number_computer ");
+    scanf("%d", &number_computer);
+
+    printf( "your name is %s\n", name);
+    printf( "your surname is %s\n", surname);
+    printf( "your number_computer is %d\n", number_computer);
+
+
+
+    return 0;
+}
