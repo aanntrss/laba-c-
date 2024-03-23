@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    void cost();
+    cost();
+    return 0;
+}
+    void cost(){
+    float price;
+    float amount;
+    float result;
+    printf(" enter price:\n");
+    scanf("%f", &price);
+
+    printf(" enter amount:\n");
+    scanf("%f", &amount);
+
+
+    result = price*amount;
+    printf("%f", result);
+
+}
